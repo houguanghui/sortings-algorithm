@@ -16,7 +16,7 @@ public class SelectionSort {
             }
             temp = arr[i];
             arr[i] = arr[key];
-            arr[key] = temp;
+            arr[key] = temp;    
         }
         return arr;
     }
